@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"592f7dc5241797f0","x":-360,"y":-200,"width":429,"height":480,"type":"text","text":""},
+		{"id":"a06c61b04b334ea7","x":-220,"y":-180,"width":150,"height":60,"type":"text","text":"Grocery List"},
+		{"id":"87bdbd4babab5325","x":-340,"y":-100,"width":270,"height":60,"type":"text","text":"List Item"},
+		{"id":"9a0f282737c93989","x":-340,"y":200,"width":61,"height":60,"type":"text","text":"M"},
+		{"id":"df77d2cb16e7ea6f","x":-70,"y":-100,"width":130,"height":60,"type":"text","text":"Quantity"},
+		{"id":"62809725ddc48975","x":-340,"y":-30,"width":400,"height":60,"type":"text","text":"Add New Item"}
+	],
+	"edges":[]
+}

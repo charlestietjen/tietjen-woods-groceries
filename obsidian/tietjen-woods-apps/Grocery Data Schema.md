@@ -1,0 +1,5 @@
+- _id
+- name
+- displayName
+- quantity
+- category
