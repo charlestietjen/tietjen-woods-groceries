@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fontlibrary.org//face/rich-eatin');
+
 body {
   background-color: darkcyan;
 }
@@ -7,4 +10,16 @@ body {
   width: 100%;
   justify-content: center;
   margin-top: 2em;
+}
+
+.app-title {
+  text-align: center;
+  font-family: 'RichEatinAllCaps';
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.grocery-list {
+  font-family: 'roboto';
+  width: 90vw;
 }
