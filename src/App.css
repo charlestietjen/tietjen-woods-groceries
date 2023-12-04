@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fontlibrary.org//face/rich-eatin');
 
-body {
-  background-color: darkcyan;
-}
 
-.App {
+/* .App {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 2em;
-}
+} */
 
 .app-title {
   text-align: center;

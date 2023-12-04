@@ -1,4 +1,4 @@
-import { Groceries } from "../pages";
+import { AppIndex, Groceries } from "../pages";
 
 export const routes = [
     {
