@@ -37,13 +37,17 @@ export const Groceries = () => {
     };
 
     const onAddGrocery = () => {
-        const grocery = 
-        const response = addGrocery()
+        const grocery =
+            addGrocery({ ...formState, category: 0 }).then(response => {
+                console.log(response)
+            }).catch(error => {
+                console.error(error);
+            });
     }
 
     useEffect(() => {
         getGroceries().then(data => {
-            if (data.length > 0){
+            if (data.length > 0) {
                 setGroceryListState(data);
             }
         })
@@ -57,7 +61,7 @@ export const Groceries = () => {
             </header>
             {groceryListState.length > 0 ?
                 <div style={{ width: "90vw", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
-                    <DataTable value={groceryListState} tableStyle={{ }} className="grocery-list">
+                    <DataTable value={groceryListState} tableStyle={{}} className="grocery-list">
                         <Column field="displayName" header="Name"></Column>
                         <Column field="quantity" header="Quantity" style={{ width: "10%" }}></Column>
                         <Column body={dataTableButton} style={{ width: "10%" }}></Column>
